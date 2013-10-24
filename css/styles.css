@@ -12,12 +12,7 @@ h3 {
 }
 
 .container_12 {
-	background: #FFF;
 	
-}
-
-.showgrid {
-	background: url("../img/12-col-grid.gif") !important;
 }
 
 li {
@@ -40,6 +35,27 @@ a {
 
 }
 
-a:hover {
-  background: blue;
+#mozilla a:hover {
+  background: url("../img/firefox.png") no-repeat 25px center;
 }
+
+#goolge a:hover {
+  background: url("../img/chrome.png") no-repeat 25px center;
+}
+
+#apple a:hover {
+  background: url("../img/safari.png") no-repeat 25px center;
+}
+
+#microsoft a:hover {
+  background: url("../img/ie.png") no-repeat 25px center;
+}
+
+#opera a:hover {
+  background: url("../img/opera.png") no-repeat 25px center;
+}
+
+/*.showgrid {
+	background: url("../img/12-col-grid.gif") !important;
+}
+*/
